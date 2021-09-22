@@ -1,0 +1,22 @@
+{
+  "name": "storybook-raw",
+  "version": "0.0.0",
+  "description": "Exploring the Storyboook without the initializer experince",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chantastic/storybook-raw.git"
+  },
+  "author": "Michael Chan <mijoch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantastic/storybook-raw/issues"
+  },
+  "homepage": "https://github.com/chantastic/storybook-raw#readme",
+  "devDependencies": {
+    "storybook": "^6.3.8"
+  }
+}
