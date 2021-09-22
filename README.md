@@ -74,3 +74,13 @@ WARN You may need to refresh the browser.
 - add `./storybook/main.js`
   - works! ✅
   - get loading screen because there are no stories and no configuration to load them
+
+### Add first story
+
+- add `stories` property to `main.js` export, including paths
+  - as soon as we provide a path, we go from a loading state to seeing the error that components couldn't be loaded
+  - `"../stories/my-first-story.stories.md"`
+- i can't seem to get a single .mdx story to load. trying CSF to see if that works.
+  - upon further inspection, looks like mdx functionality might be provided by [Docs](https://storybook.js.org/docs/react/writing-docs/introduction), in essentials
+
+
